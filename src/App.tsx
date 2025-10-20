@@ -17,7 +17,7 @@ import ArVrMr from './pages/interfaces/ArVrMr';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/digitaltwin-hub/">
       <div className="min-h-screen bg-gray-50 font-sans antialiased">
         <div className="absolute inset-0 bg-gradient-to-b from-indigo-100 to-gray-50 h-[500px]" aria-hidden="true"></div>
         <div className="relative">
